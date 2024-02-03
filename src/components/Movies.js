@@ -84,7 +84,7 @@ const Movies = () => {
                                     }
                                     </>
                                 }
-                                <div className='w-full bg-gray-900 text-white py-2 text-center font-bold'>{movie.title || movie.name}</div>
+                                <div className='w-full bg-gray-900 text-white py-2 text-center font-bold'>{movie.title ? movie.title : movie.name}</div>
                             </div>
                         ))
                     }
